@@ -26,7 +26,7 @@ ThreadPoolExecutor Constructor Method
 
 * threadFactory: the factory to use when the executor creates a new thread
 
-* handler : the handler to use when execution is blocked because the thread bounds and queue capacities are reached
+* com.yh.netty.demo.handler : the com.yh.netty.demo.handler to use when execution is blocked because the thread bounds and queue capacities are reached
 
   */
   public ThreadPoolExecutor(int corePoolSize,
@@ -35,7 +35,7 @@ ThreadPoolExecutor Constructor Method
   TimeUnit unit,
   BlockingQueue<Runnable> workQueue,
   ThreadFactory threadFactory,
-  RejectedExecutionHandler handler)
+  RejectedExecutionHandler com.yh.netty.demo.handler)
 
 
 

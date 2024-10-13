@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration
-        xmlns="http://ch.qos.logback/xml/ns/logback"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback logback.xsd">
+        xmlns="com.yh.netty.demo.http://ch.qos.logback/xml/ns/logback"
+        xmlns:xsi="com.yh.netty.demo.http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="com.yh.netty.demo.http://ch.qos.logback/xml/ns/logback logback.xsd">
     <!-- 输出控制，格式控制-->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -28,7 +28,7 @@
         <appender-ref ref="STDOUT"/>
     </logger>
 
-    <logger name="io.netty.handler.logging.LoggingHandler" level="DEBUG" additivity="false">
+    <logger name="io.netty.com.yh.netty.demo.handler.logging.LoggingHandler" level="DEBUG" additivity="false">
         <appender-ref ref="STDOUT"/>
     </logger>
 

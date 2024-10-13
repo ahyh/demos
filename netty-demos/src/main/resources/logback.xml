@@ -14,7 +14,7 @@
         <appender-ref ref="STDOUT"/>
     </logger>
 
-    <logger name="com.yan.demos.multi.thread" level="INFO" additivity="false">
+    <logger name="com.yh.netty.demo" level="INFO" additivity="false">
         <appender-ref ref="STDOUT"/>
     </logger>
 
